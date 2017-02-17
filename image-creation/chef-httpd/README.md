@@ -36,9 +36,11 @@ knowledge.
 * "__installdestination__":  Where to place above files.
                              Relative to the root directory inside the running container.
 * "__workingdir__":          Working directory inside the running container.
-* "__runfile__"              The container entrypoint file.  This is what runs your application.
-* "__buildfile__"            The container build file.  This builds your application.
+* "__runfile__"              The app start script.  This is what runs your application.
+* "__buildfile__"            The app install/build script.  This installs your application.
 
+In this example, chef does package installation and configuration at boot
+time, so no build.sh scripting is needed to install the http packages.
 
 ## Using this image
 
