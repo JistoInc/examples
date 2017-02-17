@@ -38,3 +38,17 @@ knowledge.
 * "__workingdir__":          Working directory inside the running container.
 * "__runfile__"              The container entrypoint file.  This is what runs your application.
 * "__buildfile__"            The container build file.  This builds your application.
+
+
+## Using this image
+
+You would use tar to create this image and upload it to the Jisto Server to
+create the image.
+
+```shell
+$ git clone https://github.com/JistoInc/examples/tree/develop/image-creation/chef-httpd
+$ cd chef-httpd
+$ tar zcf ~/chef_httpd_basic.tar.gz *
+```
+
+You would upload ~/chef_httpd_basic.tar.gz to your Jisto server
