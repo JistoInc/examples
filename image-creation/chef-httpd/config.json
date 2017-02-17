@@ -1,0 +1,9 @@
+{
+    "image": "jisto-chef-centos7",
+	"name": "chef_httpd_basic",
+	"installsource": "cookbooks",
+	"installdestination": "/cookbooks/",
+	"workingdir": "/cookbooks",
+	"buildfile": "build.sh",
+	"runfile": "run.sh"
+}
