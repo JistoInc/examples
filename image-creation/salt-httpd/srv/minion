@@ -1,0 +1,3 @@
+# the minion configuration file that gets copied to /etc/salt
+# by the script build.sh
+file_client: local

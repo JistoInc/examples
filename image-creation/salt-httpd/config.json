@@ -1,0 +1,11 @@
+{
+	"targetimage": "salt-httpd",
+	"targetimagetag": "1.6",
+	"installsource": "srv",
+	"installdestination": "/srv/",
+	"workingdir": "/srv",
+	"buildfile": "build.sh",
+	"runfile": "run.sh",
+	"baseimage":"jisto/centos7-salt",
+	"baseimagetag":"1.2.27"
+}

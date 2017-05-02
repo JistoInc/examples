@@ -1,0 +1,13 @@
+{
+  "serviceName": "salt-httpd",
+  "iterations" : "1",
+  "options" : {
+      "privileged": "true",
+      "tcpports": {
+         "80":  "80"
+      },
+      "volumes": {
+         "/sys/fs/cgroup":  "/sys/fs/cgroup:ro"
+      }
+  }
+}
