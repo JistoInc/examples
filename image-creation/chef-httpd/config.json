@@ -1,5 +1,5 @@
 {
-	"targetimage": "httpd",
+	"targetimage": "chef-httpd",
 	"targetimagetag": "1.2",
 	"installsource": "cookbooks",
 	"installdestination": "/cookbooks/",
