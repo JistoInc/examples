@@ -1,0 +1,11 @@
+{
+	"targetimage": "puppet-httpd",
+	"targetimagetag": "1.8",
+	"installsource": "puppet",
+	"installdestination": "/puppet/",
+	"workingdir": "/puppet",
+	"buildfile": "build.sh",
+	"runfile": "run.sh",
+	"baseimage":"jisto/centos7-puppet",
+	"baseimagetag":"1.2.29"
+}
