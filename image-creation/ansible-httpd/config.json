@@ -1,0 +1,11 @@
+{
+	"targetimage": "ansible-httpd",
+	"targetimagetag": "1.9",
+	"installsource": "ansible",
+	"installdestination": "/ansible/",
+	"workingdir": "/ansible",
+	"buildfile": "build.sh",
+	"runfile": "run.sh",
+	"baseimage":"jisto/centos7-ansible",
+	"baseimagetag":"1.2.30"
+}
