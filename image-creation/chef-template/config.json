@@ -1,0 +1,11 @@
+{
+	"targetimage": "chef-template",
+	"targetimagetag": "0.1",
+	"installsource": "cookbooks",
+	"installdestination": "/cookbooks/",
+	"workingdir": "/cookbooks",
+	"buildfile": "build.sh",
+	"runfile": "run.sh",
+	"baseimage":"jisto/ubuntu1404-chef",
+	"baseimagetag":"latest"
+}
