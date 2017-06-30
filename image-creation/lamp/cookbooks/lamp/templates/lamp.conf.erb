@@ -1,0 +1,32 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/html
+
+  <Directory /var/www/html>
+    Options FollowSymLinks
+    AllowOverride None
+    Require all granted
+  </Directory>
+
+  <Directory />
+    Options FollowSymLinks
+    AllowOverride None
+  </Directory>
+
+  <Location /server-status>
+    SetHandler server-status
+
+    Require local
+
+  </Location>
+
+  RewriteEngine On
+  LogLevel info rewrite:trace1
+
+  ErrorLog /var/log/apache2/lamp-error.log
+  CustomLog /var/log/apache2/lamp-access.log combined
+
+
+  RewriteCond %{DOCUMENT_ROOT}/system/maintenance.html -f
+  RewriteCond %{SCRIPT_FILENAME} !maintenance.html
+  RewriteRule ^.*$ /system/maintenance.html [L,R=503]
+</VirtualHost>

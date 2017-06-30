@@ -1,0 +1,11 @@
+{
+	"targetimage": "jisto-lamp",
+	"targetimagetag": "1.2",
+	"installsource": "cookbooks",
+	"installdestination": "/cookbooks/",
+	"workingdir": "/cookbooks",
+	"buildfile": "build.sh",
+	"runfile": "run.sh",
+	"baseimage":"jisto/ubuntu1404-chef",
+	"baseimagetag":"latest"
+}
