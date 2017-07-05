@@ -1,6 +1,6 @@
 {
 	"targetimage": "jisto-lamp",
-	"targetimagetag": "1.3",
+	"targetimagetag": "1.4",
 	"installsource": "cookbooks",
 	"installdestination": "/cookbooks/",
 	"workingdir": "/cookbooks",

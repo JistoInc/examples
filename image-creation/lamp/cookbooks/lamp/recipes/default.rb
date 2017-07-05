@@ -30,7 +30,7 @@ apache_module "mpm_prefork" do
 end
 
 service "apache2" do
-    action [:start]
+    action [:enable, :start]
 end
 
 mysql_service 'default' do

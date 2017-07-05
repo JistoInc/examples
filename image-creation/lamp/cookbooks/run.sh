@@ -19,3 +19,4 @@ cd /cookbooks
 #    count=$((count + 1))
 #    sleep 5
 #done
+service apache2 start
