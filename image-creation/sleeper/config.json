@@ -1,5 +1,5 @@
 {
-  "targetimage": "sleep-one",
+  "targetimage": "sleeper",
   "targetimagetag": "1.2",
   "installsource": "jisto",
   "installdestination": "/jisto/",
