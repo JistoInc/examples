@@ -56,13 +56,6 @@ cookbook_file '/var/www/html/jisto.png' do
     mode '0644'
 end
 
-cookbook_file '/var/www/html/cisco.png' do
-    source 'cisco.png'
-    owner 'root'
-    group 'root'
-    mode '0644'
-end
-
 file '/var/www/html/index.html' do
     action :delete
 end

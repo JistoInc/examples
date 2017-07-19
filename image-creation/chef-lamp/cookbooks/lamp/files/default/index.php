@@ -1,11 +1,10 @@
 <?php
 
-echo '<html><head><title>Jisto and Cisco</title></head><body>';
+echo '<html><head><title>Jisto</title></head><body>';
 echo '<table align=center><tr><td>';
 echo '<a href="http://www.jisto.com"><img src="jisto.png"></a>';
-echo '</td><td>';
-echo '<a href="http://www.cisco.com"><img src="cisco.png"></a>';
-echo '</td></tr></table>';
+echo '</td>';
+echo '</tr></table>';
 echo '<center>';
 
 // connect to the server
