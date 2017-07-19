@@ -1,0 +1,11 @@
+{
+  "targetimage": "iperf3",
+  "targetimagetag": "1.5",
+  "installsource": "jisto",
+  "installdestination": "/jisto/",
+  "workingdir": "/jisto",
+  "buildfile": "build.sh",
+  "runfile": "run.sh",
+  "baseimage": "jisto/ubuntu1404-base",
+  "baseimagetag": "latest"
+}
