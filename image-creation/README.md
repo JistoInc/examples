@@ -31,5 +31,8 @@
 
 ## Tarballs
 
-These images are built into ready to use tarballs in the built directory
+These images have built into ready to use tarballs in the built directory
 
+## Job Files
+
+These images have correspondingly named job files in the job-creation directory.
