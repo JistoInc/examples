@@ -1,3 +1,0 @@
-{
-  "run_list": [ "recipe[THING1]", "recipe[THING2]" ]
-}
