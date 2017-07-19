@@ -1,7 +1,7 @@
 {
   "serviceName": "ansible-httpd",
-  "iterations" : "1",
-  "options" : {
+  "iterations": "1",
+  "options": {
       "privileged": "true",
       "tcpports": {
          "80":  "80"

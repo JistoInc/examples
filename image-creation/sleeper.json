@@ -1,5 +1,5 @@
 {
-  "iterations" : "3",
+  "iterations": "3",
   "options": {
     "env":"SLEEP_TIME=30"
   }
