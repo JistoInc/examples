@@ -25,7 +25,7 @@
   - Application: HTTPD server (Apache) configured by Puppet.
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/puppet-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/puppet-httpd.json
-  - Image: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
+  - Source: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
 * rcrd
   - Application: Takes up random CPU cycles for random periods of time.
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
