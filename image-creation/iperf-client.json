@@ -1,0 +1,6 @@
+{
+  "iterations" : "3",
+  "options": {
+    "env":"SERVER=INSERT_SERVER_IP_HERE"
+  }
+}

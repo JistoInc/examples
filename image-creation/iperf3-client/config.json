@@ -1,5 +1,5 @@
 {
-  "targetimage": "iperf3",
+  "targetimage": "iperf3-client",
   "targetimagetag": "1.5",
   "installsource": "jisto",
   "installdestination": "/jisto/",
