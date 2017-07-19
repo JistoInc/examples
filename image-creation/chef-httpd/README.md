@@ -1,4 +1,4 @@
-# This image builds a container using a chef http cookbook example
+# This image builds a container using a Chef http cookbook example
 
 If you want to build an HTTP server image in the Jisto environment, 
 you can assemble a collection of files with little to no docker or container
@@ -9,7 +9,7 @@ knowledge.
 * build.sh            commands that run at image build time.
 * cookbooks/http.rb   an example cookbook
 * run.sh              the container entrypoint
-                      calls chef to configure the system and and sits forever.
+                      calls Chef to configure the system and and sits forever.
 
 
 ## Jisto Metadata (config.json)
@@ -29,7 +29,7 @@ knowledge.
 ## Description of individual data fields.
 * "__image__":               The base docker image to create this image from.
   -  Jisto provides you with many base images, centos6, 7, and ubuntu
-  - We support base (no mgmt), chef, ansible, and salt for configuration managment.
+  - We support base (no mgmt), Chef, Ansible, and Salt for configuration managment.
   - Image names are in the format jisto-$mgmt-$os    
 * "__name__":                The name of image as presented by the Jisto System
 * "__installsource__":       Where to get files releative to this directory
