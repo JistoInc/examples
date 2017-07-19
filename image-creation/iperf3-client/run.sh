@@ -2,7 +2,13 @@
 #
 # This runs on the server at task start time.
 #
-# sleeping one second
+# This runs iperf3 with the envrionment variables:
+#
+#    SERVER: the server running iperf3 (required)
+#
+#    PORT (default of 5201)
+#    TIME (default of 30s)
+#    BANDWIDTH (default of 0 - for unlimited)
 #
 
 #SERVER=${SERVER-${SERVER}}

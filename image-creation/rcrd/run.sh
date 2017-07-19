@@ -1,4 +1,9 @@
 #!/bin/sh
+#
+# This script runs when the task is started.
+#
+# Run stress for a random amount of time on a random number of cores.
+#
 
 nproc=$(grep -c ^processor /proc/cpuinfo)
 
