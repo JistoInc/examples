@@ -1,5 +1,5 @@
 {
-  "serviceName": "chef-httpd",
+  "serviceName": "lamp",
   "iterations": "1",
   "options": {
       "privileged": "true",
