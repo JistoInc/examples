@@ -2,8 +2,8 @@
 * on the jisto server, find the fully qualified hostname by issuing the command: hostname -f 
 * on the jisto server, install the iperf server 
 ```
-centos: yum install iperf3
-ubuntu: apt-get -y install iperf3
+centos: sudo yum -y install https://iperf.fr/download/fedora/iperf3-3.1.3-1.fc24.x86_64.rpm
+ubuntu: sudo apt-get -y install iperf3
 ```
 * run the iperf server in a terminal for the duration of this test.
 ```
