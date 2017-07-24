@@ -13,4 +13,5 @@ iperf3 -s
 https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
 * edit the copy of that file and replace INSERT_SERVER_IP_HERE with the fully qualified hostname from step 1 above.
 * load the iperf3-client image into the Jisto Web UI
+https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
 * run the iperf3-client image with the above Job File
