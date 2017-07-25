@@ -21,16 +21,16 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-lamp.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-lamp.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-lamp
+* memory
+  - Application: Allocate random amount of memory for random durations of time.
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/memory.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/memory
 * puppet-httpd
   - Application: HTTPD server (Apache) configured by Puppet
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/puppet-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/puppet-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
-* disk
-  - Application: Perform large disk writes for random durations of time.
-  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/disk.tar.gz
-  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/disk.json
-  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/disk
 * rcrd
   - Application: Takes up random CPU cycles for random periods of time
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz

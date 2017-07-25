@@ -8,6 +8,6 @@ while [ $COUNT -le 10 ] ; do
 	NUM_SECS=$((RANDOM%30+5))
 	dd if=/dev/zero of=/tmp/zz.$$ bs=512k count=512
     rm -f /tmp/zz.$$
-	sleep $NUM_SECS_OFF
+	sleep $NUM_SECS
     COUNT=$((COUNT + 1))
 done
