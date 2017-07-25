@@ -26,6 +26,11 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/puppet-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/puppet-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
+* disk
+  - Application: Perform large disk writes for random durations of time.
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/disk.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/disk.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/disk
 * rcrd
   - Application: Takes up random CPU cycles for random periods of time
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz

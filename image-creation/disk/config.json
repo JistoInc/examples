@@ -1,0 +1,11 @@
+{
+  "targetimage": "disk",
+  "targetimagetag": "1.4",
+  "installsource": "jisto",
+  "installdestination": "/jisto/",
+  "workingdir": "/jisto",
+  "buildfile": "build.sh",
+  "runfile": "run.sh",
+  "baseimage": "jisto/ubuntu1404-base",
+  "baseimagetag": "latest"
+}
