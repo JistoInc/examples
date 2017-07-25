@@ -1,56 +1,13 @@
-# This image builds a container using a Chef http cookbook example
+# Chef HTTP server  
+  
+This example uses Chef to setup and configure a HTTP server 
+that runs on port 80.
 
-If you want to build an HTTP server image in the Jisto environment, 
-you can assemble a collection of files with little to no docker or container
-knowledge.
+There are a number files in the cookbooks directory:
+* A directory for each Chef cookbook.
+* run.sh script which launches the Chef client.
 
-## Files
-* config.json         Jisto Metadata about the system
-* build.sh            commands that run at image build time.
-* cookbooks/http.rb   an example cookbook
-* run.sh              the container entrypoint
-                      calls Chef to configure the system and and sits forever.
+## Requirements
 
-
-## Jisto Metadata (config.json)
-
-```javascript
-{
-    "image": "jisto-chef-centos7",
-	"name": "chef_httpd_basic",
-	"installsource": "cookbooks",
-	"installdestination": "/cookbooks/",
-	"workingdir": "/cookbooks",
-	"buildfile": "build.sh",
-	"runfile": "run.sh"
-}
-```
-
-## Description of individual data fields.
-* "__image__":               The base docker image to create this image from.
-  -  Jisto provides you with many base images, centos6, 7, and ubuntu
-  - We support base (no mgmt), Chef, Ansible, and Salt for configuration managment.
-  - Image names are in the format jisto-$mgmt-$os    
-* "__name__":                The name of image as presented by the Jisto System
-* "__installsource__":       Where to get files releative to this directory
-* "__installdestination__":  Where to place above files.
-                             Relative to the root directory inside the running container.
-* "__workingdir__":          Working directory inside the running container.
-* "__runfile__"              The app start script.  This is what runs your application.
-* "__buildfile__"            The app install/build script.  This installs your application.
-
-In this example, chef does package installation and configuration at boot
-time, so no build.sh scripting is needed to install the http packages.
-
-## Using this image
-
-You would use tar to create this image and upload it to the Jisto Server to
-create the image.
-
-```shell
-$ git clone https://github.com/JistoInc/examples/tree/develop/image-creation/chef-httpd
-$ cd chef-httpd
-$ tar zcf ~/chef_httpd_basic.tar.gz *
-```
-
-You would upload ~/chef_httpd_basic.tar.gz to your Jisto server
+* Container must have access to the internet.
+* Jisto agent host must be running Centos 7 or Ubuntu 16.04.
