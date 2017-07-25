@@ -49,7 +49,7 @@
 
 ## Tarballs
 
-These images have built into ready to use tarballs in the built directory
+These images have built into ready to use tarballs in the built directory.
 
 ## Job Files
 
