@@ -11,16 +11,16 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-httpd
-* iperf3-client
-  - Application: Network performance tool iperf3
-  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
-  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
-  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/iperf3-client
 * chef-lamp
   - Application: Full LAMP stack (MySQL, Apache, Php) configured by Chef
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-lamp.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-lamp.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-lamp
+* iperf3-client
+  - Application: Network performance tool iperf3
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/iperf3-client
 * memory
   - Application: Allocate random amount of memory for random durations of time.
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
