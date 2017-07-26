@@ -1,6 +1,6 @@
 # Chef-configured HTTP server (Apache)
 
-This example uses Chef to set up and configure an HTTP server that runs on port 80.
+This example uses Chef to set up and configure an HTTP server (Apache) that runs on port 80.
 
 There are a number of files in the *cookbooks* directory of the image:
 * A directory for each Chef cookbook
