@@ -4,7 +4,7 @@ This example uses Ansible to setup and configure an HTTP server that runs on por
 
 There are two files in the ansible directory of the image:
 * A basic playbook named *webserver.yml*
-* A script named *ansible-run.sh* which launches the Ansible client
+* A script named *ansible-run.sh*, which launches the Ansible client
 
 ## Requirements
 
