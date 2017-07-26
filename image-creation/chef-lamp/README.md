@@ -2,11 +2,11 @@
 
 This example uses Chef to set up and configure a full LAMP stack, including an HTTP server (Apache), MySQL, and PHP, that runs on port 80.
 
-There are a number files in the cookbooks directory:
-* A directory for each Chef cookbook.
-* run.sh script which launches the Chef client.
+There are a number of files in the *cookbooks* directory of the image:
+* A directory for each Chef cookbook
+* A script named *run.sh*, which launches the Chef client
 
 ## Requirements
 
-* Container must have access to the internet.
-* Jisto agent host must be running Centos 7 or Ubuntu 16.04.
+* Jisto Nodes must have access to the internet
+* Jisto Nodes must be running CentOS 7 or Ubuntu 16.04
