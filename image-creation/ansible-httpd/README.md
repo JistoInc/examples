@@ -8,5 +8,5 @@ There are two files in the ansible directory of the image:
 
 ## Requirements
 
-* Container must have access to the internet
+* Jisto Nodes must have access to the internet
 * Jisto Nodes must be running CentOS 7 or Ubuntu 16.04
