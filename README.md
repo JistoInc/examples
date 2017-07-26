@@ -12,7 +12,7 @@
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-httpd
 * chef-lamp
-  - Application: Full LAMP stack (MySQL, Apache, Php) configured by Chef
+  - Application: Chef-configured full LAMP stack (Apache, MySQL, PHP)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-lamp.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-lamp.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-lamp
