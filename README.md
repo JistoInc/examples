@@ -48,7 +48,7 @@ Below are example image and job files ready to be deployed using Jisto. The imag
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/iperf3-client
-### Sleep (do nothing) application:
+### Sleep (do nothing) applications:
 * sleeper
   - Application: Sleep (do nothing) for a specified number of seconds
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/sleeper.tar.gz
