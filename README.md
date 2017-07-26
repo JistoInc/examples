@@ -2,12 +2,12 @@
 
 ## Available images
 * ansible-httpd
-  - Application: HTTPD server (Apache) configured by Ansible
+  - Application: Ansible-configured HTTP server (Apache)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/ansible-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/ansible-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/ansible-httpd
 * chef-httpd
-  - Application: HTTPD server (Apache) configured by Chef
+  - Application: Chef-configured HTTP server (Apache)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-httpd
