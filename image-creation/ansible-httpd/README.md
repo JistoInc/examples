@@ -1,6 +1,6 @@
 # Ansible HTTP server
 
-This example uses Ansible to setup and configure an HTTP server that runs on port 80.
+This example uses Ansible to set up and configure an HTTP server that runs on port 80.
 
 There are two files in the ansible directory of the image:
 * A basic Ansible playbook named *webserver.yml*
