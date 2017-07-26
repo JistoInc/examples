@@ -11,9 +11,9 @@ For Ubuntu: sudo apt-get -y install iperf3
 ```
 iperf3 -s
 ```
+* Load this *iperf3-client* image into the Jisto Web UI:
+https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
 * Make a copy of this *iperf3-client.json* job file:
 https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
 * Edit the copy of that job file and replace *INSERT_SERVER_IP_HERE* with the fully qualified hostname from step 1 above
-* Load this *iperf3-client* image into the Jisto Web UI:
-https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
-* Run the *iperf3-client* image with the copied and edited job file
+* Run the *iperf3-client* image with the copied and edited job file, and observe the Jisto Server terminal as the job runs
