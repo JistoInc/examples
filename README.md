@@ -42,7 +42,7 @@
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/iperf3-client
 * sleeper
-  - Application: Sleep (do nothing) for a number of seconds based on the SLEEP_TIME variable (Default: 30)
+  - Application: Sleep (do nothing) for a specified number of seconds
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/sleeper.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/sleeper.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/sleeper
