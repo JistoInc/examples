@@ -12,12 +12,12 @@
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-httpd
 * puppet-httpd
-  - Application: HTTPD server (Apache) configured by Puppet
+  - Application: Puppet-configured HTTP server (Apache)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/puppet-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/puppet-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
 * salt-httpd
-  - Application: HTTPD server (Apache) configured by Salt
+  - Application: Salt-configured HTTP server (Apache)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/salt-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/salt-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/salt-httpd
