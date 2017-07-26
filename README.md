@@ -1,6 +1,11 @@
 # Jisto Example Image Files
 
 ## Available images
+* rcrd
+  - Application: CPU exerciser: uses random number of CPU cores for random periods of time
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/rcrd.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/rcrd
 * ansible-httpd
   - Application: Ansible-configured HTTP server (Apache)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/ansible-httpd.tar.gz
@@ -36,11 +41,6 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/memory.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/memory
-* rcrd
-  - Application: Takes up random CPU cycles for random periods of time
-  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
-  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/rcrd.json
-  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/rcrd
 * sleeper
   - Application: Sleep (do nothing) for a number of seconds based on the SLEEP_TIME variable (Default: 30)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/sleeper.tar.gz
