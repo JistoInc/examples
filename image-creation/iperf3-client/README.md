@@ -1,9 +1,11 @@
-# How to use iPerf container.
-* on the jisto server, find the fully qualified hostname by issuing the command: hostname -f 
-* on the jisto server, install the iperf server 
+# Network performance measurement tool iperf3
+
+How to use this image:
+* On the Jisto Server, find the fully qualified hostname by issuing this command: *hostname -f* 
+* On the Jisto Server, install the iperf server using the following command:
 ```
-centos: sudo yum -y install https://iperf.fr/download/fedora/iperf3-3.1.3-1.fc24.x86_64.rpm
-ubuntu: sudo apt-get -y install iperf3
+For CentOS: *sudo yum -y install https://iperf.fr/download/fedora/iperf3-3.1.3-1.fc24.x86_64.rpm*
+For Ubuntu: *sudo apt-get -y install iperf3*
 ```
 * run the iperf server in a terminal for the duration of this test.
 ```
