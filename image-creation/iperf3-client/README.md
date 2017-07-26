@@ -7,13 +7,13 @@ How to use this image:
 For CentOS: sudo yum -y install https://iperf.fr/download/fedora/iperf3-3.1.3-1.fc24.x86_64.rpm
 For Ubuntu: sudo apt-get -y install iperf3
 ```
-* run the iperf server in a terminal for the duration of this test.
+* Run the iperf server in a terminal for the duration of this test by issuing this command:
 ```
 iperf3 -s
 ```
-* make a copy of the iperf3-client.json file here:
+* Make a copy of this *iperf3-client.json* job file:
 https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
-* edit the copy of that file and replace INSERT_SERVER_IP_HERE with the fully qualified hostname from step 1 above.
-* load the iperf3-client image into the Jisto Web UI
+* Edit the copy of that job file and replace *INSERT_SERVER_IP_HERE* with the fully qualified hostname from step 1 above
+* Load this *iperf3-client* image into the Jisto Web UI:
 https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
-* run the iperf3-client image with the above Job File
+* Run the *iperf3-client* image with the above job File
