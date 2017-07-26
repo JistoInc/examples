@@ -11,6 +11,16 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-httpd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/chef-httpd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/chef-httpd
+* puppet-httpd
+  - Application: HTTPD server (Apache) configured by Puppet
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/puppet-httpd.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/puppet-httpd.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
+* salt-httpd
+  - Application: HTTPD server (Apache) configured by Salt
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/salt-httpd.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/salt-httpd.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/salt-httpd
 * chef-lamp
   - Application: Chef-configured full LAMP stack (Apache, MySQL, PHP)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/chef-lamp.tar.gz
@@ -26,21 +36,11 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/memory.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/memory
-* puppet-httpd
-  - Application: HTTPD server (Apache) configured by Puppet
-  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/puppet-httpd.tar.gz
-  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/puppet-httpd.json
-  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/puppet-httpd
 * rcrd
   - Application: Takes up random CPU cycles for random periods of time
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/rcrd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/rcrd
-* salt-httpd
-  - Application: HTTPD server (Apache) configured by Salt
-  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/salt-httpd.tar.gz
-  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/salt-httpd.json
-  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/salt-httpd
 * sleeper
   - Application: Sleep (do nothing) for a number of seconds based on the SLEEP_TIME variable (Default: 30)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/sleeper.tar.gz
