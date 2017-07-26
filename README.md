@@ -32,7 +32,7 @@
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/iperf3-client
 * memory
-  - Application: Allocate random amount of memory for random durations of time.
+  - Application: Allocate random amount of memory for random durations of time
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/memory.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/memory
