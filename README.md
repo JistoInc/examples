@@ -3,6 +3,8 @@
 Below are example image and job files ready to be deployed using Jisto. The image links are ready-to-use tarballs, which have already been built. The corresponding source/documentation links for these images are also provided. Each image also has corresponding JSON job links, which are also ready to be used with their corresponding images using Jisto.
 
 ## Available images and jobs
+
+### CPU and memory exercisers
 * rcrd
   - Application: CPU exerciser: uses random number of CPU cores for random periods of time
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
