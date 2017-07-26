@@ -1,4 +1,4 @@
-# Ansible HTTP server
+# Ansible-deployed HTTP server
 
 This example uses Ansible to set up and configure an HTTP server that runs on port 80.
 
