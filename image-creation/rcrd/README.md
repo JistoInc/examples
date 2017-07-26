@@ -1,11 +1,7 @@
-# Random Cores Random Duration
+# CPU exerciser: uses random number of CPU cores for random periods of time
 
-This example image utilizes the stress utility to increase
-CPU utilization.
-
-A random number of CPU cores will be maximally utilized 
-for random periods of time.
+This example image utilizes the *stress* utility as a CPU exerciser, which uses a random number of CPU cores for random periods of time.
 
 ## Requirements
 
-* none
+* None
