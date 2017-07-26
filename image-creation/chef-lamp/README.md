@@ -1,7 +1,6 @@
-# Chef LAMP staack  
-  
-This example uses Chef to setup and configure mysql and a php 
-enabled HTTP server that runs on port 80.
+# Chef-configured full LAMP stack (Apache, MySQL, PHP)
+
+This example uses Chef to set up and configure a full LAMP stack, including an HTTP server (Apache), MySQL, and PHP, that runs on port 80.
 
 There are a number files in the cookbooks directory:
 * A directory for each Chef cookbook.
