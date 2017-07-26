@@ -1,13 +1,12 @@
-# Ansible HTTP server  
-  
-This example uses Ansible to setup and configure a HTTP server 
-that runs on port 80.
+# Ansible HTTP server
+
+This example uses Ansible to setup and configure an HTTP server that runs on port 80.
 
 There are two files in the ansible directory of the image:
-* A basic playbook named webserver.yml
-* A script named ansible-run.sh which launches the Ansible client
+* A basic playbook named *webserver.yml*
+* A script named *ansible-run.sh* which launches the Ansible client
 
 ## Requirements
 
 * Container must have access to the internet
-* Jisto agent host must be running CentOS 7 or Ubuntu 16.04
+* Jisto Nodes must be running CentOS 7 or Ubuntu 16.04
