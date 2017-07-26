@@ -1,6 +1,8 @@
-# Jisto Example Image Files
+# Jisto Example Image and Job Files
 
-## Available images
+Below are example image and job files ready to be deployed using Jisto. The image links are ready-to-use tarballs, which have already been built. The corresponding source/documentation links for these images are also provided. Each image also has corresponding JSON job links, which are also ready to be used with their corresponding images using Jisto.
+
+## Available images and jobs
 * rcrd
   - Application: CPU exerciser: uses random number of CPU cores for random periods of time
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
@@ -51,11 +53,3 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/sleep-one.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/sleep-one.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/sleep-one
-
-## Tarballs
-
-These images have built into ready to use tarballs in the built directory.
-
-## Job Files
-
-These images have correspondingly named job files in the job-creation directory.
