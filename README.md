@@ -6,6 +6,11 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/rcrd.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/rcrd.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/rcrd
+* memory
+  - Application: Memory exerciser: uses random amount of memory for random periods of time
+  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
+  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/memory.json
+  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/memory
 * ansible-httpd
   - Application: Ansible-configured HTTP server (Apache)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/ansible-httpd.tar.gz
@@ -36,11 +41,6 @@
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/iperf3-client.tar.gz
   - Job: https://github.com/JistoInc/examples/raw/master/job-creation/iperf3-client.json
   - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/iperf3-client
-* memory
-  - Application: Allocate random amount of memory for random durations of time
-  - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/memory.tar.gz
-  - Job: https://github.com/JistoInc/examples/raw/master/job-creation/memory.json
-  - Source/Docs: https://github.com/JistoInc/examples/tree/master/image-creation/memory
 * sleeper
   - Application: Sleep (do nothing) for a number of seconds based on the SLEEP_TIME variable (Default: 30)
   - Image: https://github.com/JistoInc/examples/raw/master/image-creation/built/sleeper.tar.gz
